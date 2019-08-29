@@ -110,7 +110,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   header {
-    width: 750px;
+    width: 745px;
     padding-right: 0px;
   }
 
@@ -119,7 +119,7 @@ footer {
   }
   
   .contact {
-    width: 750px;
+    width: 700px;
   }
 
   .portfolio {
@@ -136,30 +136,69 @@ footer {
   }
 
 @media screen and (max-width: 640px) {
+  header {
+    width: 595px;
+  }
+  
+  .bio {
+    height: 550px;
+    width: 550px;
+    padding-bottom: 300px;
+  }
+
   #bio-image {
-    width: 370px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .contact {
+    width: 550px;
   }
 
   textarea {
-    width: 380px;
+    width: 540px;
+  }
+
+  .portfolio {
+    width: 550px;
+  }
+
+  .hangman img {
+    width: 150px;
   }
 
   .rpg {
-    margin-left: 35px;
+    width: 538px;
+  }
+
+  .rpg img{
+    width: 150px;
   }
 
   .trivia {
-    margin-right: 40px;
+    width: 538px;
+  }
+
+  .trivia img{
+    width: 150px;
   }
 
   .widget {
-    margin-left: 35px;
+    width: 538px;
+  }
+
+  .widget img{
+    width: 150px;
   }
 
   .rps {
-    margin-right: 40px;
+    width: 538px;
+  }
+
+  .rps img{
+    width: 150px;
   }
 
   footer {
-    margin-top: 10px;
+    width: 555px;
 }
